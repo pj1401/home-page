@@ -16,7 +16,13 @@ body {
   font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Lucida Sans Regular', Geneva, Verdana, sans-serif;
 }
 
-.project-list {
+.project-list ul {
+  list-style: none;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 15px;
+}
+
+.project ul {
+  grid-template-columns: auto;
 }
