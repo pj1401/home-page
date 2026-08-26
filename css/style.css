@@ -29,19 +29,23 @@ body {
   border-radius: 5px;
 }
 .project-list h3, .info h3 {
+  margin: 0;
+  padding: 15px;
   text-align: center;
+  box-shadow: 1px 1px 3px #777;
+  border-radius: 5px;
+  color: white;
+  text-shadow: 1px 1px 2px #222;
+  font-weight: bold;
 }
 
 .project-list {
-  border-color: #00ccff;
+  background-color: #EBFAFF;
+  border-color: #009FCF;
 }
 
 .project-list h3 {
-  margin: 0;
-  padding: 15px;
-  background-color: #d6f7ff;
-  box-shadow: 2px 2px #00ccff;
-  border-radius: 5px;
+  background-color: #009FCF;
 }
 
 .project-list ul {
@@ -55,6 +59,15 @@ body {
   grid-template-columns: auto;
 }
 
+.info {
+  background-color: #EBFFFA;
+  border-color: #008863;
+}
+
 .info ul {
   list-style: none;
+}
+
+.info h3 {
+  background-color: #008863;
 }
