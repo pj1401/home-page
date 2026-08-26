@@ -17,8 +17,20 @@ body {
 }
 
 .container {
+  max-width: 800px;
   padding: 40px;
   margin: 0 auto;
+}
+
+.project-list {
+  border: 0.5px solid #00ccff;
+  border-radius: 20px;
+}
+.project-list h3 {
+  margin: 0;
+  padding: 15px;
+  background-color: #d6f7ff;
+  border-bottom: 0.5px solid #00ccff;
 }
 
 .project-list ul {
@@ -30,4 +42,8 @@ body {
 
 .project ul {
   grid-template-columns: auto;
+}
+
+.info ul {
+  list-style: none;
 }
