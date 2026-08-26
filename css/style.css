@@ -22,15 +22,26 @@ body {
   margin: 0 auto;
 }
 
-.project-list {
-  border: 0.5px solid #00ccff;
-  border-radius: 20px;
+.project-list, .info {
+  margin: 15px;
+  padding: 5px;
+  border: 0.5px solid;
+  border-radius: 5px;
 }
+.project-list h3, .info h3 {
+  text-align: center;
+}
+
+.project-list {
+  border-color: #00ccff;
+}
+
 .project-list h3 {
   margin: 0;
   padding: 15px;
   background-color: #d6f7ff;
-  border-bottom: 0.5px solid #00ccff;
+  box-shadow: 2px 2px #00ccff;
+  border-radius: 5px;
 }
 
 .project-list ul {
